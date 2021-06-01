@@ -1,0 +1,336 @@
+/* html */
+body {
+  background-color: #f9f7f7;
+  text-align: center;
+}
+
+h1 {
+  font-family: Ubuntu, Helvetica, Arial, sans-serif;
+  font-size: 3.1rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  /* font-weight: bold; */
+  line-height: 1.5;
+  padding-bottom: 1%;
+}
+
+h3 {
+  font-family: "Montserrat";
+  /* font-weight: bold; */
+}
+
+hr {
+  width: 10%;
+  border-width: 0;
+  color: #112d4e;
+  margin: 0 auto;
+}
+
+b {
+  font-weight: 600;
+}
+
+/* navbar */
+.container-fluid {
+  padding: 2% 10% 2% 10%;
+  position: relative;
+}
+
+.navbar {
+  padding: 0 0 0 0;
+}
+
+.navbar-brand {
+  /* font-family: "Ubuntu"; */
+  padding-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* intro */
+.my-name {
+  height: 30%;
+  padding: 15% 5% 10%;
+  text-align: center;
+  color: white;
+  /* background-image: url('../images/clouds.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+.my-description {
+  padding: 0 10% 5% 10%;
+  color: #f9f7f7;
+}
+
+/* title */
+#title {
+  background-image: url('../images/clouds.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #3f72af;
+}
+
+#hobbies {
+  position: relative;
+  padding: 7% 15%;
+}
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  margin-bottom: 5%;
+  color: #3f72af;
+}
+
+.icon:hover {
+  color: #112d4e;
+}
+
+/* about */
+#about {
+  background-color: #3f72af;
+  text-align: center;
+  position: relative;
+  padding: 7% 15%;
+}
+
+.about-c {
+  text-align: center;
+}
+
+.aboutheading {
+  padding-top: 0.5rem;
+  color: #fff;
+}
+
+.abouthr {
+  padding-bottom: 0;
+}
+
+.aboutp {
+  text-align: center;
+  padding: 1% 10% 5% 10%;
+  color: #fff;
+  font-weight: 200;
+}
+
+.spotify-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* skills */
+#skills {
+  /* background-color: #87ceeb; */
+  /*  #3f72af; */
+  padding: 80px 10px 0;
+  /* color: #f9f7f7; */
+}
+
+.lolo {
+  height: 25rem;
+  margin: 8px 0;
+}
+
+.skill-box {
+  height: 25rem;
+  margin: 8px 0;
+  border-radius: 5px;
+}
+
+.lolo:hover {
+  padding: 1rem 1rem 0;
+}
+
+.lolo:hover .skill-box {
+  height: 23rem;
+}
+
+.s1 {
+  background-image: url('../images/s1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.s2 {
+  background-image: url('../images/s2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.s3 {
+  background-image: url('../images/s3.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.s4 {
+  background-image: url('../images/s4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.s5 {
+  background-image: url('../images/s5.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.s6 {
+  background-image: url('../images/s6.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+#cta {
+  text-align: center;
+  padding: 7% 15% 3%;
+}
+
+.finisher {
+  font-size: 2.5rem;
+  color: #112d4e;
+  padding: 0 15% 0;
+}
+
+#footer {
+  padding: 2% 15% 0;
+  text-align: center;
+  color: white;
+}
+
+.footer-basic {
+  padding: 40px 0 0;
+  color: white;
+  background-color: #f9f7f7;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: white;
+  opacity: 0.75;
+}
+
+.lin-col:hover {
+  opacity: 1;
+  color: #fff;
+  background: #0e76a8;
+}
+
+.gi-col:hover {
+  opacity: 1;
+  color: #fff;
+  background: #211F1F;
+}
+
+.ma-col:hover {
+  opacity: 1;
+  color: #fff;
+  background: #D44638;
+}
+
+.ins-col:hover {
+  opacity: 1;
+  color: #fff;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+.c-icon:hover {
+  color: white;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.4);
+  color: #fff;
+}
+
+.shrink {
+  transition: all .2s ease-in-out;
+}
+
+.shrink:hover {
+  transform: scale(0.9);
+}
